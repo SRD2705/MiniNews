@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(2, 3, 19);
+}
+
+img { 
+    max-width: 100%;
+}
+h2{
+    font-size: 1.6rem;
+    color: #157a0c;
+}
+
+.header{
+    position:sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    // color: white;
+    background-color: rgb(17, 77, 9);
+    margin-bottom: 10px;
+
+    &__logo{
+        color:white;
+        font-size:x-large;
+        text-align: left;
+        padding-left: 20px;
+        font-weight: bolder;
+        
+    }
+
+    &__logoimg{
+        margin-left: -700px;
+    }
+    
+}
+
+
+
+.wrapper{
+    padding: 0 1rem;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px,1fr));
+    grid-gap: 2rem;
+
+    &__card{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(37, 35, 35);
+        padding: 20px;
+
+        &:hover{
+            border-color: lightcoral;
+            box-shadow: 0 3px 3px rgb(212, 6, 6), 0 3px 3px rgb(226, 10, 10);
+        }
+    }
+}
+
+.nav-bar{
+    align-items: center;
+}
+
+//testing
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    // background-color: #333;
+    align-items: center;
+    font-weight: bolder;
+    margin-right: 80px;
+  }
+  
+  li {
+    float:left;
+    align-items: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: green;
+  }
+
+
+
+//Loader test start
+
+//Loader animation end
