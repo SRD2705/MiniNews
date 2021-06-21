@@ -29,5 +29,6 @@ Then I deploy the website to the heroku.
 my website link:
 https://mini-news-srd2705.herokuapp.com/india.ejs
 
+You can also use my REST API for your website purpose.
 If you want to add more feature then welcome to fork.
 Thank You 
